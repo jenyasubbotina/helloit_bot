@@ -103,8 +103,8 @@ def image_giving_step(message):
     image = Image.open('cert.png')
     font = ImageFont.truetype("font-m.ttf", font_size)
     draw = ImageDraw.Draw(image)
-    draw.text((x, y), name, font=font, fill=(237, 186, 45))
-    draw.text((x, y + font_size), surname, font=font, fill=(237, 186, 45))
+    draw.text((x, y), name, font=font+5, fill=(237, 186, 45))
+    draw.text((x, y + font_size+5), surname, font=font+5, fill=(237, 186, 45))
     draw.text((tx, ty), teacher, font=ImageFont.truetype("font-b.ttf", tfont_size+20), fill=(0, 0, 0))
     draw.text((course1x, course1y - 30), "as having successfully completed the",
               font=ImageFont.truetype("font-m.ttf", tfont_size+15), fill=(0, 0, 0))
