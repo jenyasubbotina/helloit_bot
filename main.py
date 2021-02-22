@@ -20,6 +20,7 @@ course_names = [
     'Programming Algorithms stage 1',
     'Programming Algorithms stage 2',
 ]
+PORT = int(os.environ.get('PORT', 5000))
 
 # Python for beginners
 # C# for beginners
