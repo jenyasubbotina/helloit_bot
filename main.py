@@ -27,7 +27,7 @@ PORT = int(os.environ.get('PORT', 5000))
 # WEB technologies stage 1/2/3 ...
 # Programming Algorithms stage 1/2
 
-token = "796303915:AAF4MJs2lqEYxUWtK-7VSjYVWGjeLhNEXnU"
+token = "YOUR_TOKEN"
 bot = telebot.TeleBot(token)
 
 
